@@ -1,0 +1,6 @@
+Eshaan Vora | ID: 2318955
+Sum (After adding nucleotides to uneven DnaStrings): 46
+Mean: 11.5
+Standard Deviation: 8.544
+Variance: 73
+

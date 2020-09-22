@@ -9,7 +9,13 @@ Assignment1::Assignment1(){}
 
 int Assignment1::countNucleotide(string dnaString, string nucleotide){
   int count = 0;
+  string test = "";
   for(int i = 0; i < dnaString.size(); ++i){
+    test = toupper(dnaString[i]);
+    if(test != "A" && test != "C" && test != "T" && test != "G"){
+      cout << "Error. Please check input file for illegal nucleotides! (Only A,C,T,G are legal)" << endl;
+      exit(0);
+    }
     if(toupper(dnaString[i]) == nucleotide[0])
       count++;
   }
