@@ -1,5 +1,3 @@
-
-
 #include "a1.h"
 
 using namespace std;
@@ -71,7 +69,7 @@ int Assignment1::totalCountNucleotideBigram(string path, string nucleotide){
     if(line.size() % 2 != 0){
       line = line + line[0];
     }
-  
+
     count = countNucleotideBigram(line,nucleotide);
     totalCount = totalCount + count;
   }
